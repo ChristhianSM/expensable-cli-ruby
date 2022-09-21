@@ -1,0 +1,38 @@
+AllCops:
+  NewCops: enable
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/MethodLength:
+  Max: 25
+
+Metrics/AbcSize:
+  Max: 30
+
+Metrics/CyclomaticComplexity:
+  Max: 15
+
+Metrics/ClassLength:
+  Max: 210
+
+Metrics/ParameterLists:
+  Max: 6
+
+Metrics/ModuleLength:
+  Max: 110
+
+Style/GlobalVars:
+  Enabled: false
+
+Style/WordArray:
+  MinSize: 10
+
+Style/ClassVars:
+  Enabled: false
